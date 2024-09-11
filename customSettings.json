@@ -1,0 +1,50 @@
+// Place your key bindings in this file to override the defaults
+[
+  // Go to the end of a line
+  {
+    "key": "ctrl+' e",
+    "command": "cursorLineEnd"
+  },
+  // Go to the start of a line
+  {
+    "key": "ctrl+' s",
+    "command": "cursorLineStart"
+  },
+  // Go to definition
+  {
+    "key": "ctrl+' d",
+    "command": "editor.action.revealDefinition"
+  },
+  // Change All Occurrences
+  {
+    "key": "ctrl+' o",
+    "command": "editor.action.changeAll"
+  },
+  // Selects from cursor to end of line
+  {
+    "key": "ctrl+' ;",
+    "command": "cursorLineEndSelect"
+  },
+  // Creates a new file in the file explorer
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  // Creates a new folder in the file explorer
+  {
+    "key": "ctrl+k f",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  }
+]
